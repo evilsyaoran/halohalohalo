@@ -1,0 +1,202 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+}
+
+.navbar-brand img
+{
+	height:25px;
+}
+
+
+body {position: relative;}
+
+.jumbotron
+{
+	padding:0px !important;
+}
+
+/* Navbar */
+.body
+{
+margin-top:50px;
+}
+
+.navbar-inverse{
+	background:rgb(245,245,245);
+	border-bottom:2px solid rgb(0,142,208);
+}
+
+.navbar-inverse .navbar-brand{
+	color:rgb(0,142,208);
+	font-weight:bold;
+}
+
+#navbar ul li a
+{
+	color:rgb(0,142,208);
+	font-weight:bold;
+	border:none;
+	transition:background 0.2s;
+font-height:27px;
+}
+
+
+#navbar ul li .highlight:after {
+    content: '';
+
+    width: 100%;
+    position: absolute;
+    left: 17%;
+    bottom: 13px;
+    width:66%;
+    border-width: 0 0 2px;
+    border-style: solid;
+}
+
+#navbar ul li a:hover
+{
+	background:rgb(250,250,250);
+	transition:background 0.2s;
+}
+
+#navbar ul li a img
+{
+	height:20px;
+}
+
+.navbar-toggle
+{
+	border-color:rgb(0,142,208) !important;
+	transition:background 0.2s;
+}
+
+.navbar-toggle:hover
+{
+	background:rgb(250,250,250) !important;
+	transition:background 0.2s;
+}
+
+.navbar-toggle .icon-bar
+{
+	background:rgb(0,142,208) !important;
+}
+
+
+/* End of Navbar setting cuk*/
+
+/*sign in = masuk*/
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgb(250,250,250);
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.btn-primary
+{
+	background:rgb(0,142,208);
+}
+
+.btn-primary:hover
+{
+background: rgb(0,112,178);
+}
+
+.btn-info
+{
+background: rgb(0,142,208);
+}
+
+.btn-info:hover
+{
+background: rgb(0,112,178);
+}
+
+.afix{width:100%;top:51px;z-index:1000;}
+
+.filtersearch
+{
+background: rgb(0,142,208);
+min-height:0px;
+margin-bottom:0px;
+border: 1px solid #e3e3e3;
+}
+
+.filtersearch .btn
+{
+width:100%;
+border-radius:0px;
+border:none;
+}
+
+#filterpekerjaan h4
+{
+	margin-bottom:0;
+	margin-top:0;
+	padding:10px 5px 10px 5px;
+}
+
+#filterpekerjaan .fker
+{
+	margin-bottom:0;
+	margin-top:0;
+}
+
+.dkategori:hover{cursor:pointer}
+
+.list
+{
+border: 1px solid #e3e3e3;
+min-height:1300px;
+margin-top:20px;
+}
+
+.pekerjaan {width:1170px;}
+
+table.kategori{width:100%}
+table.kategori tr td{width:25%;}
+.katklik{background:#eee}
+
+#filterpekerjaan{padding:10px}
+
+.listpekerjaan{width:100%;background:rgb(245,245,245);box-shadow:1px 1px 2px rgb(0,142,208);padding:10px;margin-bottom:15px;color:rgb(0,142,208);height:90px;}
+.listpekerjaan h1{font-weight:bold;font-size:26px;}
+
+.listpekerjaan .kiri{float:left;width:70%;}
+.listpekerjaan .kanan{float:left;width:30%;font-weight:bold;border-left:1px solid rgb(0,142,208);padding-left:10px;height:100%;}
+.listpekerjaan .kanan .atas {padding:10px 0px;}
+.listpekerjaan .kanan .bawah {padding-top:10px 0px;}
